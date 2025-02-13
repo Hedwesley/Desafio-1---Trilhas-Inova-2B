@@ -104,10 +104,11 @@ alert(`O resultado da soma de ${n1} + ${n2} é ${n1+n2}`);
 
 //15
 function somatorio(x, y){
-    let z = x + y;
-    return z;
+    return x + y;
 }
-let x = 10;
-let y = 20;
-let z = somatorio(x,y);
-console.log(z);
+
+function verificarSoma(){
+    let x = 50;
+    let y = 60;
+    console.log(somatorio(x,y));
+}
