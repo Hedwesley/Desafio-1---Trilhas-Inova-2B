@@ -106,9 +106,6 @@ alert(`O resultado da soma de ${n1} + ${n2} é ${n1+n2}`);
 function somatorio(x, y){
     return x + y;
 }
-
-function verificarSoma(){
-    let x = 50;
-    let y = 60;
-    console.log(somatorio(x,y));
-}
+let x = 50;
+let y = 60;
+console.log(somatorio(x,y));
